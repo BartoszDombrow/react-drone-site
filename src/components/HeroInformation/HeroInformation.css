@@ -1,0 +1,38 @@
+.heroInformation_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 660px;
+  width: 80%;
+}
+.heroInformation_content {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 31%;
+  border-radius: 40px;
+  background-color: #dee2e6;
+}
+
+.heroInformation_container--img {
+  width: 100%;
+  height: 40%;
+}
+
+.heroInformation_container--img img {
+  width: 100%;
+  height: 100%;
+  border-radius: 40px 40px 0 0;
+}
+
+.heroInformation_container--content {
+  width: 80%;
+  height: 60%;
+  padding: 10px;
+}
+
+.heroInformation_container--content p {
+  text-wrap: wrap;
+  padding: 0;
+  margin: 0;
+}
