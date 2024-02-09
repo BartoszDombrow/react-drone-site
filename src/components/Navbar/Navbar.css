@@ -1,73 +1,96 @@
 .navigation {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  width: 100%;
-  height: 80px;
-  background-color: #dee2e6;
-  -webkit-box-shadow: 0px 9px 3px -3px rgba(183, 183, 183, 1);
-  -moz-box-shadow: 0px 9px 3px -3px rgba(183, 183, 183, 1);
-  box-shadow: 0px 9px 3px -3px rgba(183, 183, 183, 1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 80px;
+    background-color: #dee2e6;
+    -webkit-box-shadow: 0px 9px 3px -3px rgba(183, 183, 183, 1);
+    -moz-box-shadow: 0px 9px 3px -3px rgba(183, 183, 183, 1);
+    box-shadow: 0px 9px 3px -3px rgba(183, 183, 183, 1);
 }
 
 .logo_wrapper {
-  height: 100%;
-  width: 25%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    height: 100%;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .logo_wrapper p {
-  padding-left: 10px;
-  font-weight: bold;
-  font-size: 36px;
-  margin: 0;
-  letter-spacing: 2px;
+    padding-left: 10px;
+    font-weight: bold;
+    font-size: 36px;
+    margin: 0;
+    letter-spacing: 2px;
 }
 
-ul {
-  padding: 0;
-  margin: 0;
-  display: flex;
-  height: 100%;
-
-  width: 50%;
-  justify-content: center;
-  align-items: center;
-  list-style: none;
-  gap: 50px;
+.menu-icon {
+    display: none;
+    cursor: pointer;
 }
 
-li {
-  text-decoration: none;
+.menu {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
-.a_tag {
-  color: black;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-size: 24px;
+.menu li {
+    margin-right: 20px;
 }
 
-.a_tag:visited {
-  color: black;
+.menu a {
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 24px;
 }
 
-.a_tag:focus {
-  text-decoration: underline;
+.menu a:visited {
+    color: black;
 }
 
-.language_selector {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
-
-  width: 25%;
+.menu-icon svg {
+    font-size: 30px;
 }
 
-.icon {
-  height: 30px;
-  width: 30px;
+@media (max-width: 768px) {
+    .logo_wrapper p {
+        display: none;
+    }
+
+    .navigation {
+        justify-content: space-between;
+    }
+
+    .menu-icon {
+        display: flex;
+        padding-right: 20px;
+    }
+
+    .menu {
+        position: absolute;
+        top: 100px;
+        right: -100%;
+        width: 100%;
+        flex-direction: column;
+        background-color: #dee2e6;
+        transition: right 0.3s ease;
+    }
+
+    .menu.open {
+        right: 0;
+    }
+
+    .menu li {
+        text-align: center;
+        margin: 20px 0;
+    }
+
+    .menu a {
+        font-size: 20px;
+    }
 }
