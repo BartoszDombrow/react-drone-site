@@ -23,7 +23,7 @@ function Offer() {
                         <div className="offer_section">
                             <p>{t(offer.shortDescription)}</p>
                             <Link className="link" to={`/oferta/${offer.id}`}>
-                                Czytaj dalej
+                                {t("readOn")}
                             </Link>
                         </div>
                     </div>

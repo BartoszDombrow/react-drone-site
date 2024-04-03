@@ -52,9 +52,13 @@
         margin-bottom: 20px;
     }
 
-    .heroInformation_container--img,
-    .heroInformation_container--content {
+    .heroInformation_container--img {
         width: 100%;
+        border-radius: 0;
+    }
+    .heroInformation_container--content {
+        width: auto;
+        height: auto;
         border-radius: 0;
     }
 

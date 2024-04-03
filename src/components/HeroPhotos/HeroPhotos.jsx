@@ -6,23 +6,23 @@ import photogrammetry from "../../assets/images/photogrammetry.jpg";
 import thermovision from "../../assets/images/termowizja.jpg";
 
 function HeroPhotos() {
-  const photos = [
-    { img: construction, alt: "Konstrukcja" },
-    { img: city, alt: "Miasto" },
-    { img: photogrammetry, alt: "Fotogrametria" },
-    { img: thermovision, alt: "Termowizja" },
-  ];
-  return (
-    <div className="heroPhotos_container">
-      {photos.map((photo) => {
-        return (
-          <div className="heroPhotos_photo">
-            <img src={photo.img} alt={photo.alt} />
-          </div>
-        );
-      })}
-    </div>
-  );
+    const photos = [
+        { img: construction, alt: "Konstrukcja", key: "img1" },
+        { img: city, alt: "Miasto", key: "img2" },
+        { img: photogrammetry, alt: "Fotogrametria", key: "img3" },
+        { img: thermovision, alt: "Termowizja", key: "img4" },
+    ];
+    return (
+        <div className="heroPhotos_container">
+            {photos.map((photo) => {
+                return (
+                    <div className="heroPhotos_photo" key={photo.key}>
+                        <img src={photo.img} alt={photo.alt} />
+                    </div>
+                );
+            })}
+        </div>
+    );
 }
 
 export default HeroPhotos;

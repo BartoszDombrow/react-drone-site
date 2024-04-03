@@ -1,9 +1,48 @@
 {
     "translation": {
+        "nav": {
+            "aboutUs": "About us",
+            "offer": "Offer",
+            "contact": "Contact"
+        },
         "hero": {
             "title": "DRONEPRO",
-            "description1": "",
-            "description2": ""
+            "description1": "DRONEPRO is a company specializing in professional filming services using drones. With our years of experience and technical support, we ensure comprehensive implementation of every project.",
+            "description2": "We are ready to take on new challenges in the air. Contact us to discuss the details and commission us to carry out your project."
+        },
+        "title1": "Thermography",
+        "shortDescription1": "We use the latest thermal imaging technologies for fast and precise thermal inspection of objects.",
+        "longDescription1": "Our company offers comprehensive thermographic services based on the latest technologies and rich experience in thermal diagnostics. By using advanced thermal imaging cameras and specialized software, we can conduct precise thermographic inspections of objects of various scales and complexities. Our inspections allow for the detection of potential problems related to thermal insulation, heat leaks, leaks in heating installations, or other irregularities that may lead to energy losses or failures. Our team of experienced specialists ensures to deliver precise and reliable thermographic reports to clients, providing a solid basis for making decisions regarding conservation, modernization, or repairs.",
+        "title2": "Photogrammetry",
+        "shortDescription2": "We offer precise terrain mapping and 3D modeling using photogrammetric technology.",
+        "longDescription2": "Our company specializes in advanced photogrammetric services that enable comprehensive terrain mapping and the creation of high-precision and detailed 3D models. By using modern photogrammetric technologies, such as drones equipped with high-resolution cameras and specialized data processing software, we can generate precise and reliable geospatial data for various sectors, including urban planning, mining, construction, or scientific field research. Our photogrammetric services are an excellent tool for planning, monitoring, and analyzing terrains and objects of varying scales and characteristics, providing our clients with comprehensive information needed to make informed decisions and achieve their intended goals.",
+        "title3": "Technical Inspections",
+        "shortDescription3": "We provide comprehensive inspection services for various objects and installations, including buildings, bridges, power lines, and more.",
+        "longDescription3": "Our company provides high-quality inspection services, including comprehensive technical examinations of various objects and installations, to assess their technical condition, compliance with standards, and identification of potential problems or hazards. Our team of experienced inspectors is equipped with specialized equipment and diagnostic tools that enable detailed and reliable analyses in accordance with applicable standards and regulations. We conduct technical inspections of buildings, bridges, power lines, hydraulic systems, and more, providing our clients with clear inspection reports containing a comprehensive assessment of the technical condition and recommendations for conservation or repairs. Our goal is to provide clients with confidence and safety regarding the technical condition of their objects and support them in making informed decisions regarding the maintenance of infrastructure in optimal condition.",
+        "title4": "Forestry and Agriculture",
+        "shortDescription4": "We provide services for monitoring and managing forest and agricultural resources, including remote sensing, soil analyses, and more.",
+        "longDescription4": "Our company offers specialized services for monitoring, managing, and protecting forest and agricultural resources, based on advanced technologies and years of experience working with the forestry and agricultural sector. By using modern tools and methods, such as remote sensing, soil analyses, remote sensing, and GIS (Geographic Information Systems), we can provide our clients with comprehensive and precise data and information regarding the state of natural resources, dynamics of environmental changes, risk assessment, and planning and monitoring activities related to environmental protection and sustainable management of natural resources. Our forestry and agricultural services are aimed at various entities, including forestry companies, farms, scientific institutions, non-governmental organizations, and public administrations, and are tailored to the individual needs and requirements of clients, providing them not only with reliable data and analyses but also with practical solutions and strategies for effective management of natural resources and achieving sustainable development.",
+        "title5": "Construction Progress Supervision",
+        "shortDescription5": "We provide professional supervision of construction work progress, monitoring quality, compliance with the project, and timeliness of implementation.",
+        "longDescription5": "Our company specializes in providing high-quality supervision services for the progress of construction work, providing comprehensive support and quality control of activities carried out, compliance with projects, and timely execution. Our experienced team of construction supervisors is equipped with the knowledge, skills, and tools necessary for effective monitoring and management of the construction process, from the preparatory phase through the implementation stages to the final inspections and completion of investments. Our supervision services include, among others: quality control of materials and work performed, supervision of compliance with construction regulations and technical standards, coordination of subcontractors' work and suppliers, preparation of progress reports, and response to current problems and emergency situations. We operate with full commitment and professionalism to provide our clients with effective support and safety in the implementation of their investments, and to achieve the intended construction goals in accordance with established requirements and expectations.",
+        "title6": "Events",
+        "shortDescription6": "We offer aerial filming and photography services for events, providing unforgettable shots from various types of events and special occasions.",
+        "longDescription6": "Our company offers comprehensive aerial filming and photography services for special events, delivering unforgettable shots and impressions from various events and occasions. Our team of professional drone operators and cameramen, as well as experienced photographers and filmmakers, specializes in creating high-quality video materials and photos that not only document the course of events but also capture their atmosphere, emotions, and essence. By using advanced aerial technologies and a creative approach to framing and editing, we can offer our clients unique and artistic video productions and photographs that stand out for their originality, aesthetics, and professionalism. Our event services are addressed to clients from various industries and sectors, including companies, event agencies, cultural institutions, and event organizers, and are tailored to individual needs and requirements, providing them with comprehensive support and satisfaction, as well as effective promotion and documentation of their events and activities, in line with their strategic goals and expectations.",
+        "contact": {
+            "contactWithUs": "Contact us!",
+            "name": "Name",
+            "email": "Email",
+            "message": "Message",
+            "send": "Send"
+        },
+        "readOn": "Read on",
+        "heroInfo": {
+            "title1": "Conversation",
+            "text1": "In the first stage, we focus on understanding the needs and expectations of our client. Through open and honest conversation, we seek to delve into all relevant details related to the project. Our goal is to fully understand the client's requirements and ensure clear communication among all parties involved.",
+            "title2": "Offer",
+            "text2": "In the second stage, we prepare a individually tailored offer that meets the specific needs and requirements of the client. Our proposals are comprehensive and transparent, taking into account all relevant aspects of the project, including scope of work, costs, deadlines, and other key details. We aim to provide our clients with clarity and honesty regarding the services offered.",
+            "title3": "Implementation",
+            "text3": "In the third stage, we proceed to the actual implementation of the project according to the parameters established earlier. Our team meticulously cares about every detail, acting in accordance with the schedule and adhering to high quality standards. During the implementation process, we maintain regular contact with the client, providing updates and making any necessary adjustments according to their suggestions. Our goal is to ensure full client satisfaction and achieve the intended project goals."
         }
     }
 }

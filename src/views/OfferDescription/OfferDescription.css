@@ -29,6 +29,7 @@
 @media (max-width: 768px) {
     .content_wrapper {
         flex-direction: column;
+        margin-top: 20px;
         width: 90%;
     }
 

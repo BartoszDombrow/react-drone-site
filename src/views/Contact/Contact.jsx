@@ -1,50 +1,67 @@
-import React from "react";
+import React, { useRef } from "react";
+import emailjs from "@emailjs/browser";
 import "./contact.css";
+import { useTranslation } from "react-i18next";
 
 function Contact() {
+    const { t } = useTranslation();
+
+    const form = useRef();
+
+    const serviceId = process.env.REACT_APP_SERVICE_ID;
+    const templateId = process.env.REACT_APP_TEMPLATE_ID;
+    const publicKey = process.env.REACT_APP_PUBLIC_KEY;
+
+    const sendEmail = (e) => {
+        e.preventDefault();
+
+        emailjs
+            .sendForm(`${serviceId}`, `${templateId}`, form.current, {
+                publicKey: `${publicKey}`,
+            })
+            .then(
+                () => {
+                    e.target.reset();
+                    console.log(process.env.REACT_APP_SERVICE_ID);
+                },
+                (error) => {
+                    console.log("FAILED...", error.text);
+                }
+            );
+    };
+
     return (
         <div className="contact_wrapper">
             <div className="contact_form_wrapper">
                 <div className="contact_form_title">
-                    <h1>Skontaktuj się z nami!</h1>
+                    <h1>{t("contact.contactWithUs")}</h1>
                 </div>
-                <form className="contact_form">
+                <form ref={form} onSubmit={sendEmail} className="form">
+                    <label className="label">{t("contact.name")}</label>
                     <input
-                        className="input_form"
+                        required={true}
                         type="text"
-                        placeholder="Imię"
-                        id="name"
-                        name="name"
-                        required
-                    />
-
-                    <input
+                        name="user_name"
                         className="input_form"
-                        type="email"
-                        placeholder="e-mail"
-                        id="email"
-                        name="email"
-                        required
                     />
-
+                    <label className="label">{t("contact.email")}</label>
+                    <input
+                        required={true}
+                        type="email"
+                        name="user_email"
+                        className="input_form"
+                    />
+                    <label className="label">{t("contact.message")}</label>
                     <textarea
-                        id="message"
-                        placeholder="Twoja wiadomość"
                         name="message"
-                        rows="4"
-                        required
-                    ></textarea>
-                    <div>
-                        <button type="submit">Wyślij</button>
-                    </div>
-                    <p className="polityka">
-                        Przesyłając wiadomość e-mail za pomocą tego formularza,
-                        zgadzasz się na przetwarzanie swoich danych osobowych w
-                        celu udzielenia odpowiedzi na Twoje zapytanie. Twoje
-                        dane osobowe będą traktowane zgodnie z naszą Polityką
-                        Prywatności i nie będą udostępniane osobom trzecim bez
-                        Twojej zgody.
-                    </p>
+                        className="textarea"
+                        required={true}
+                    />
+                    <input
+                        type="submit"
+                        value={t("contact.send")}
+                        className="form_button"
+                    />
                 </form>
             </div>
             <div className="contact_social_wrapper">

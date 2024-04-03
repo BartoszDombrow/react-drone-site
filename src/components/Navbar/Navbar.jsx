@@ -3,9 +3,12 @@ import { Link } from "react-router-dom";
 import { HiOutlineMenu } from "react-icons/hi";
 import logo from "../../assets/images/logo.png";
 import "./Navbar.css";
+import { useTranslation } from "react-i18next";
 
 function Navbar() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+    const { t } = useTranslation();
 
     const toggleMenu = () => {
         setIsMenuOpen(!isMenuOpen);
@@ -23,17 +26,17 @@ function Navbar() {
             <ul className={`menu ${isMenuOpen ? "open" : ""}`}>
                 <li>
                     <Link className="a_tag" to="/" onClick={toggleMenu}>
-                        O nas
+                        {t("nav.aboutUs")}
                     </Link>
                 </li>
                 <li>
                     <Link className="a_tag" to="/oferta" onClick={toggleMenu}>
-                        Usługi
+                        {t("nav.offer")}
                     </Link>
                 </li>
                 <li>
                     <Link className="a_tag" to="/kontakt" onClick={toggleMenu}>
-                        Kontakt
+                        {t("nav.contact")}
                     </Link>
                 </li>
             </ul>

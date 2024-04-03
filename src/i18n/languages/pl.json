@@ -1,5 +1,10 @@
 {
     "translation": {
+        "nav": {
+            "aboutUs": "O nas",
+            "offer": "Usługi",
+            "contact": "Kontakt"
+        },
         "hero": {
             "title": "DRONEPRO",
             "description1": "DRONEPRO to firma specjalizująca się w profesjonalnych usługach filmowania z wykorzystaniem dronów. Dzięki naszemu wieloletniemu doświadczeniu oraz wsparciu technicznemu zapewniamy kompleksową realizację każdego przedsięwzięcia.",
@@ -22,6 +27,22 @@
         "longDescription5": "Nasza firma specjalizuje się w świadczeniu wysokiej jakości usług nadzoru nad postępem prac budowlanych, zapewniając kompleksowe wsparcie i kontrolę jakości realizowanych działań, zgodność z projektami oraz terminowość wykonania. Nasz doświadczony zespół nadzorców budowlanych jest wyposażony w wiedzę, umiejętności i narzędzia niezbędne do skutecznego monitorowania i zarządzania procesem budowlanym, począwszy od fazy przygotowawczej, przez etapy realizacji, aż po finalne odbiory i zakończenie inwestycji. Nasze usługi nadzoru obejmują między innymi: kontrolę jakości materiałów i wykonywanych robót, nadzór nad przestrzeganiem przepisów budowlanych i norm technicznych, koordynację pracy podwykonawców i dostawców, sporządzanie raportów postępu prac oraz reagowanie na bieżące problemy i sytuacje awaryjne. Działamy z pełnym zaangażowaniem i profesjonalizmem, aby zapewnić naszym klientom skuteczne wsparcie i bezpieczeństwo w realizacji ich inwestycji, oraz osiągnięcie zamierzonych celów budowlanych, zgodnie z ustalonymi wymaganiami i oczekiwaniami.",
         "title6": "Eventy",
         "shortDescription6": "Oferujemy usługi filmowania i fotografowania wydarzeń z powietrza, dostarczając niezapomniane ujęcia z różnego rodzaju imprez i wydarzeń specjalnych.",
-        "longDescription6": "Nasza firma oferuje kompleksowe usługi filmowania i fotografowania wydarzeń specjalnych z powietrza, dostarczając niezapomniane ujęcia i wrażenia z różnorodnych imprez i eventów. Nasz zespół profesjonalnych operatorów dronów i kamer oraz doświadczonych fotografów i filmowców specjalizuje się w tworzeniu wysokiej jakości materiałów wideo i zdjęć, które nie tylko dokumentują przebieg wydarzeń, ale także oddają ich atmosferę, emocje i istotę. Wykorzystując zaawansowane technologie lotnicze oraz kreatywne podejście do kadrowania i montażu, jesteśmy w stanie zaoferować naszym klientom unikalne i artystyczne produkcje wideo oraz fotografie, które wyróżniają się oryginalnością, estetyką i profesjonalizmem. Nasze usługi eventowe są skierowane do klientów z różnych branż i sektorów, w tym firm, agencji eventowych, instytucji kulturalnych i organizatorów imprez, i są dostosowane do indywidualnych potrzeb i wymagań, zapewniając im kompleksowe wsparcie i satysfakcję, oraz efektywne promowanie i dokumentowanie ich wydarzeń i aktywności, zgodnie z ich strategicznymi celami i oczekiwaniami."
+        "longDescription6": "Nasza firma oferuje kompleksowe usługi filmowania i fotografowania wydarzeń specjalnych z powietrza, dostarczając niezapomniane ujęcia i wrażenia z różnorodnych imprez i eventów. Nasz zespół profesjonalnych operatorów dronów i kamer oraz doświadczonych fotografów i filmowców specjalizuje się w tworzeniu wysokiej jakości materiałów wideo i zdjęć, które nie tylko dokumentują przebieg wydarzeń, ale także oddają ich atmosferę, emocje i istotę. Wykorzystując zaawansowane technologie lotnicze oraz kreatywne podejście do kadrowania i montażu, jesteśmy w stanie zaoferować naszym klientom unikalne i artystyczne produkcje wideo oraz fotografie, które wyróżniają się oryginalnością, estetyką i profesjonalizmem. Nasze usługi eventowe są skierowane do klientów z różnych branż i sektorów, w tym firm, agencji eventowych, instytucji kulturalnych i organizatorów imprez, i są dostosowane do indywidualnych potrzeb i wymagań, zapewniając im kompleksowe wsparcie i satysfakcję, oraz efektywne promowanie i dokumentowanie ich wydarzeń i aktywności, zgodnie z ich strategicznymi celami i oczekiwaniami.",
+        "contact": {
+            "contactWithUs": "Skontaktuj się z nami!",
+            "name": "Imię",
+            "email": "Email",
+            "message": "Wiadomość",
+            "send": "Wyślij"
+        },
+        "readOn": "Czytaj dalej",
+        "heroInfo": {
+            "title1": "Rozmowa",
+            "text1": "W pierwszym etapie, skupiamy się na zrozumieniu potrzeb i oczekiwań naszego klienta. Poprzez otwartą i rzetelną rozmowę, staramy się zgłębić wszelkie istotne detale związane z projektem. Naszym celem jest pełne zrozumienie wymagań klienta oraz zapewnienie klarownej komunikacji między wszystkimi zaangażowanymi stronami.",
+            "title2": "Oferta",
+            "text2": "Na drugim etapie, przygotowujemy indywidualnie dostosowaną ofertę, która odpowiada specyficznym potrzebom i wymaganiom klienta. Nasze propozycje są kompleksowe i przejrzyste, uwzględniając wszystkie istotne aspekty projektu, w tym zakres prac, koszty, terminy oraz inne kluczowe szczegóły. Dążymy do zapewnienia naszym klientom klarowności oraz uczciwości w zakresie oferowanych usług.",
+            "title3": "Realizacja",
+            "text3": "W trzecim etapie, przechodzimy do właściwej realizacji projektu zgodnie z ustalonymi wcześniej parametrami. Nasz zespół skrupulatnie dba o każdy detal, działając zgodnie z harmonogramem oraz przestrzegając wysokich standardów jakościowych. W trakcie procesu realizacji, utrzymujemy regularny kontakt z klientem, informując o postępach i dokonując ewentualnych dostosowań zgodnie z jego sugestiami. Naszym celem jest pełna satysfakcja klienta oraz osiągnięcie zamierzonych celów projektu."
+        }
     }
 }
